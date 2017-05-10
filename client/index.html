@@ -8,6 +8,88 @@ To begin with it has nothing to do with archaism, with the salvaging of obsolete
 
 It has nothing to do with correct grammar and syntax,which are of no importance so long as one makes one's meaning clear, or with the avoidance of Americanisms, or with having what is called a "good prose style." 
 
+{% endmarkdown %}
+
+<table class="o-table o-table--responsive-overflow o-table--row-stripes" data-o-component="o-table">
+	<thead>
+		<th>Senator</th>
+		<th>Party</th>
+		<th>State</th>
+		<th>Voiced support for Mr Trump's decision</th>
+		<th>Calls for a special prosecutor</th>
+	</thead>
+	<tbody>
+		{% for row in intelligence %}
+		<tr>
+			<td>{{row.fullname}}</td>
+			<td class="rowparty-{{row.party}}">{{row.party}}</td>
+			<td>{{row.state}}</td>
+			<td class="rowparty-{{row.supportthedecision}}">{{row.supportthedecision | md}}</td>
+			<td class="rowparty-{{row.supportthedecision}}">{{row.calledforspecialprosecutor | md}}</td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
+
+
+{% markdown %}
+
+It has nothing to do with correct grammar and syntax,which are of no importance so long as one makes one's meaning clear, or with the avoidance of Americanisms, or with having what is called a "good prose style." 
+
+{% endmarkdown %}
+
+<table class="o-table o-table--responsive-overflow o-table--row-stripes" data-o-component="o-table">
+	<thead>
+		<th>Senator</th>
+		<th>Party</th>
+		<th>State</th>
+		<th>Voiced support for Mr Trump's decision</th>
+		<th>Called for a special prosecutor in statement</th>
+	</thead>
+	<tbody>
+		{% for row in judiciary %}
+		<tr>
+			<td>{{row.fullname}}</td>
+			<td>{{row.party}}</td>
+			<td>{{row.state}}</td>
+			<td>{{row.supportthedecision | md}}</td>
+			<td>{{row.calledforspecialprosecutor | md}}</td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
+
+
+{% markdown %}
+
+It has nothing to do with correct grammar and syntax,which are of no importance so long as one makes one's meaning clear, or with the avoidance of Americanisms, or with having what is called a "good prose style." 
+
+{% endmarkdown %}
+
+<table class="o-table o-table--responsive-overflow o-table--row-stripes" data-o-component="o-table">
+	<thead>
+		<th>Senator</th>
+		<th>Party</th>
+		<th>State</th>
+		<th>Voiced support for Mr Trump's decision</th>
+		<th>Calls for a special prosecutor</th>
+	</thead>
+	<tbody>
+		{% for row in data %}
+		<tr>
+			<td>{{row.fullname}}</td>
+			<td>{{row.party}}</td>
+			<td>{{row.state}}</td>
+			<td>{{row.supportthedecision | md}}</td>
+			<td>{{row.calledforspecialprosecutor | md}}</td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
+
+
+{% markdown %}
+
 On the other hand, it is not concerned with fake simplicity and
 the attempt to make written English colloquial. Nor does it even imply in every
 case preferring the Saxon word to the Latin one, though it does imply using the fewest and shortest words that will cover one's meaning. What is above all
