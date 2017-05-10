@@ -2,12 +2,44 @@
 @import 'components/core/main';
 
 .rowparty-R {
-	background-color: red;
+	color: #e5262d;
 }
 .rowparty-D {
-	background-color: red;
+	color: #238fce;
+}
+.rowsupport-false {
+	color: white;
+	background-color: #ebbcb3;
+}
+.rowsupport-true {
+	background-color: #eed485;
+}
+.rowcall-false {
+	background-color: #ebbcb3;
+}
+.rowcall-true {
+	background-color: #eed485;
+}
+.o-typography-body-wrapper table a{
+	font-family: MetricWeb,sans-serif;
+	line-height: 17px;
+	font-size: 15px;
+	font-weight: 400;
+}
+.o-typography-body-wrapper table p{
+	font-family: MetricWeb,sans-serif;
+	line-height: 17px;
+	font-size: 15px;
+	font-weight: 400;
 }
 
+.webkit-any-link table a{
+	font-family: MetricWeb,sans-serif;
+	line-height: 17px;
+	font-size: 15px;
+	font-weight: 400;
+	color: white;
+}
 /*
       TODO: delete this comment
 

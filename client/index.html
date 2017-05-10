@@ -16,7 +16,7 @@ It has nothing to do with correct grammar and syntax,which are of no importance 
 		<th>Party</th>
 		<th>State</th>
 		<th>Voiced support for Mr Trump's decision</th>
-		<th>Calls for a special prosecutor</th>
+		<th>Called for a special prosecutor in statement</th>
 	</thead>
 	<tbody>
 		{% for row in intelligence %}
@@ -24,8 +24,8 @@ It has nothing to do with correct grammar and syntax,which are of no importance 
 			<td>{{row.fullname}}</td>
 			<td class="rowparty-{{row.party}}">{{row.party}}</td>
 			<td>{{row.state}}</td>
-			<td class="rowparty-{{row.supportthedecision}}">{{row.supportthedecision | md}}</td>
-			<td class="rowparty-{{row.supportthedecision}}">{{row.calledforspecialprosecutor | md}}</td>
+			<td class="rowsupport-{{row.support2}}">{{row.supportthedecision | md}}</td>
+			<td class="rowcall-{{row.call2}}">{{row.calledforspecialprosecutor | md}}</td>
 		</tr>
 		{% endfor %}
 	</tbody>
@@ -50,10 +50,10 @@ It has nothing to do with correct grammar and syntax,which are of no importance 
 		{% for row in judiciary %}
 		<tr>
 			<td>{{row.fullname}}</td>
-			<td>{{row.party}}</td>
+			<td class="rowparty-{{row.party}}">{{row.party}}</td>
 			<td>{{row.state}}</td>
-			<td>{{row.supportthedecision | md}}</td>
-			<td>{{row.calledforspecialprosecutor | md}}</td>
+			<td class="rowsupport-{{row.support2}}">{{row.supportthedecision | md}}</td>
+			<td class="rowcall-{{row.call2}}">{{row.calledforspecialprosecutor | md}}</td>
 		</tr>
 		{% endfor %}
 	</tbody>
@@ -72,16 +72,16 @@ It has nothing to do with correct grammar and syntax,which are of no importance 
 		<th>Party</th>
 		<th>State</th>
 		<th>Voiced support for Mr Trump's decision</th>
-		<th>Calls for a special prosecutor</th>
+		<th>Called for a special prosecutor in statement</th>
 	</thead>
 	<tbody>
 		{% for row in data %}
 		<tr>
 			<td>{{row.fullname}}</td>
-			<td>{{row.party}}</td>
+			<td class="rowparty-{{row.party}}">{{row.party}}</td>
 			<td>{{row.state}}</td>
-			<td>{{row.supportthedecision | md}}</td>
-			<td>{{row.calledforspecialprosecutor | md}}</td>
+			<td class="rowsupport-{{row.support2}}">{{row.supportthedecision | md}}</td>
+			<td class="rowcall-{{row.call2}}">{{row.calledforspecialprosecutor | md}}</td>
 		</tr>
 		{% endfor %}
 	</tbody>
