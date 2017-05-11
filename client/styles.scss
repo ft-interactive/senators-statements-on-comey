@@ -8,7 +8,6 @@
 	color: #238fce;
 }
 .rowsupport-false {
-	color: white;
 	background-color: #ebbcb3;
 }
 .rowsupport-true {
@@ -23,15 +22,16 @@
 .o-typography-body-wrapper table a{
 	font-family: MetricWeb,sans-serif;
 	line-height: 17px;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 600;
 	text-align: center;
+	vertical-align: middle;
 
 }
 .o-typography-body-wrapper table p{
 	font-family: MetricWeb,sans-serif;
 	line-height: 17px;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 400;
 	text-align:center; 
 }
@@ -53,12 +53,16 @@
 .article-body .o-table--responsive-overflow {
 	min-width: 200px;
 }
-th{
+.article-body .o-table th{
 	cursor: pointer;
-	text-align: center;
+	line-height: 1;
+	font-size: 18px;
 }
 .article-body .o-table td{
 	vertical-align: middle;
+	font-size: 16px;
+	border-top: 1px solid #d1c6b7;
+	border-bottom: 1px solid #d1c6b7;
 }
 th[aria-sort="descending"]:after {
     content: '▼';

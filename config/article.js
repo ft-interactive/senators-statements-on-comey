@@ -5,7 +5,7 @@ export default () => ({ // eslint-disable-line
 
   // canonical URL of the published page
   // https://ig.ft.com/senators-table get filled in by the ./configure script
-  url: 'https://ig.ft.com/senators-statements-on-comey',
+  url: 'https://ig.ft.com/senators-statements-on-comey/',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
@@ -37,7 +37,7 @@ export default () => ({ // eslint-disable-line
   ],
 
   // Appears in the HTML <title>
-  title: '',
+  title: 'How Senators reacted to Comey dismissal',
 
   // meta data
   description: '',
