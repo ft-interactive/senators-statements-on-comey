@@ -64,7 +64,7 @@ export default () => ({ // eslint-disable-line
   twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F8b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=700',
   // twitterCreator: '@individual's_account',
   tweetText:  'How Senators reacted to Comey dismissal',
-  twitterHeadline:  'Whether Republicans cross party lines may determine what happens next',
+  twitterHeadline:  'How Senators reacted to Comey dismissal',
 
   // FACEBOOK
   facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F8b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=700',
