@@ -11,20 +11,14 @@ export default () => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'Headline needed',
+  headline: 'How Senators reacted to Comey dismissal',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'subhed needed' +
-           'subhed needed',
+  summary: 'Whether Republicans cross party lines may determine what happens next ',
 
   topic: {
-    name: 'Starter Kit',
-    url: '/foo',
-  },
-
-  relatedArticle: {
-    text: 'Related article »',
-    url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+    name: 'US Politics & Policy',
+    url: 'https://www.ft.com/world/us/politics',
   },
 
   mainImage: {
@@ -39,7 +33,7 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Lauren Leatherby', url: '/foo/bar' },
+    { name: 'Lauren Leatherby', url: 'https://www.ft.com/lauren-leatherby' },
   ],
 
   // Appears in the HTML <title>
