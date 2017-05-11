@@ -10,23 +10,24 @@ When news broke yesterday that President Donald Turmp suddenly fired FBI directo
 
 {% endmarkdown %}
 
-<h2>Senate Select Committee on Intelligence members</h2>
-	<table class="o-table o-table--responsive-overflow o-table--row-stripes" data-o-component="o-table">
+
+<h2>Senate intelligence committee members</h2>
+	<table class="o-table o-table--row-stripes" data-o-component="o-table">
 		<thead>
 			<th>Senator</th>
 			<th>Party</th>
 			<th>State</th>
-			<th>Voiced support for Mr Trump's decision</th>
-			<th>Called for a special prosecutor in statement</th>
+			<th>Voiced at least some support for Mr Trump's decision</th>
+			<th>Called for a special prosecutor</th>
 		</thead>
 		<tbody>
 			{% for row in intelligence %}
 			<tr>
-				<td>{{row.fullname}}</td>
-				<td class="rowparty-{{row.party}}">{{row.party}}</td>
-				<td>{{row.state}}</td>
-				<td class="rowsupport-{{row.support2}}">{{row.supportthedecision | md}}</td>
-				<td class="rowcall-{{row.call2}}">{{row.calledforspecialprosecutor | md}}</td>
+				<td class="senator-name">{{row.fullname}}</td>
+				<td class="rowparty-{{row.party}} party-column">{{row.party}}</td>
+				<td class="state-column">{{row.state}}</td>
+				<td class="rowsupport-{{row.support2}} support-column">{{row.supportthedecision | md}}</td>
+				<td class="rowcall-{{row.called2}} investigator-column">{{row.calledforspecialprosecutor | md}}</td>
 			</tr>
 			{% endfor %}
 		</tbody>
@@ -39,23 +40,23 @@ It has nothing to do with correct grammar and syntax,which are of no importance 
 
 {% endmarkdown %}
 
-<h2>Senate Committee on the Judiciary members</h2>
-	<table class="o-table o-table--responsive-overflow o-table--row-stripes" data-o-component="o-table">
+<h2>Senate judiciary committee members</h2>
+	<table class="o-table o-table--row-stripes" data-o-component="o-table">
 		<thead>
 			<th>Senator</th>
 			<th>Party</th>
 			<th>State</th>
-			<th>Voiced support for Mr Trump's decision</th>
-			<th>Called for a special prosecutor in statement</th>
+			<th>Voiced at least some support for Mr Trump's decision</th>
+			<th>Called for a special prosecutor</th>
 		</thead>
 		<tbody>
 			{% for row in judiciary %}
 			<tr>
-				<td>{{row.fullname}}</td>
-				<td class="rowparty-{{row.party}}">{{row.party}}</td>
-				<td>{{row.state}}</td>
-				<td class="rowsupport-{{row.support2}}">{{row.supportthedecision | md}}</td>
-				<td class="rowcall-{{row.call2}}">{{row.calledforspecialprosecutor | md}}</td>
+				<td class="senator-name">{{row.fullname}}</td>
+				<td class="rowparty-{{row.party}} party-column">{{row.party}}</td>
+				<td class="state-column">{{row.state}}</td>
+				<td class="rowsupport-{{row.support2}} support-column">{{row.supportthedecision | md}}</td>
+				<td class="rowcall-{{row.called2}} investigator-column">{{row.calledforspecialprosecutor | md}}</td>
 			</tr>
 			{% endfor %}
 		</tbody>
@@ -69,22 +70,22 @@ It has nothing to do with correct grammar and syntax,which are of no importance 
 {% endmarkdown %}
 
 <h2>All Senators</h2>
-	<table class="o-table o-table--responsive-overflow o-table--row-stripes" data-o-component="o-table">
+	<table class="o-table o-table--row-stripes" data-o-component="o-table">
 		<thead>
 			<th>Senator</th>
 			<th>Party</th>
 			<th>State</th>
-			<th>Voiced support for Mr Trump's decision</th>
-			<th>Called for a special prosecutor in statement</th>
+			<th>Voiced at least some support for Mr Trump's decision</th>
+			<th>Called for a special prosecutor or special counsel</th>
 		</thead>
 		<tbody>
 			{% for row in data %}
 			<tr>
-				<td>{{row.fullname}}</td>
-				<td class="rowparty-{{row.party}}">{{row.party}}</td>
-				<td>{{row.state}}</td>
-				<td class="rowsupport-{{row.support2}}">{{row.supportthedecision | md}}</td>
-				<td class="rowcall-{{row.call2}}">{{row.calledforspecialprosecutor | md}}</td>
+				<td class="senator-name">{{row.fullname}}</td>
+				<td class="rowparty-{{row.party}} party-column">{{row.party}}</td>
+				<td class="state-column">{{row.state}}</td>
+				<td class="rowsupport-{{row.support2}} support-column">{{row.supportthedecision | md}}</td>
+				<td class="rowcall-{{row.called2}} investigator-column">{{row.calledforspecialprosecutor | md}}</td>
 			</tr>
 			{% endfor %}
 		</tbody>

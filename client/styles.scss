@@ -15,30 +15,58 @@
 	background-color: #eed485;
 }
 .rowcall-false {
-	background-color: #ebbcb3;
+	background-color: #eed485;
 }
 .rowcall-true {
-	background-color: #eed485;
+	background-color: #ebbcb3;
 }
 .o-typography-body-wrapper table a{
 	font-family: MetricWeb,sans-serif;
 	line-height: 17px;
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 600;
+	text-align: center;
+
 }
 .o-typography-body-wrapper table p{
 	font-family: MetricWeb,sans-serif;
 	line-height: 17px;
 	font-size: 15px;
 	font-weight: 400;
+	text-align:center; 
 }
-
-.webkit-any-link table a{
-	font-family: MetricWeb,sans-serif;
-	line-height: 17px;
-	font-size: 15px;
-	font-weight: 400;
-	color: white;
+.senator-name {
+	width: 25%;
+}
+.party-column {
+	width: 12.5%;
+}
+.state-column {
+	width: 12.5%;
+}
+.support-column {
+	width: 25%;
+}
+.investigator-column {
+	width: 25%;
+}
+.article-body .o-table--responsive-overflow {
+	min-width: 200px;
+}
+th{
+	cursor: pointer;
+	text-align: center;
+}
+.o-table td{
+	vertical-align: middle;
+}
+th[aria-sort="descending"]:after {
+    content: '▼';
+    margin-left: 5px;
+}
+th[aria-sort="ascending"]:after {
+    content: '▲';
+    margin-left: 5px;
 }
 /*
       TODO: delete this comment
