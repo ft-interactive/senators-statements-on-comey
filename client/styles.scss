@@ -68,11 +68,11 @@
 	border-bottom: 1px solid #d1c6b7;
 }
 th[aria-sort="descending"]:after {
-    content: '▼';
+    content: '↓';
     margin-left: 5px;
 }
 th[aria-sort="ascending"]:after {
-    content: '▲';
+    content: '↑';
     margin-left: 5px;
 }
 /*
