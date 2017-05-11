@@ -1,7 +1,7 @@
 export default () => ({ // eslint-disable-line
 
   // link file UUID
-  id: '',
+  id: 'c18af83c-3664-11e7-bce4-9023f8c0fd2e',
 
   // canonical URL of the published page
   // https://ig.ft.com/senators-table get filled in by the ./configure script
@@ -25,7 +25,7 @@ export default () => ({ // eslint-disable-line
     title: '',
     description: '',
     credit: '',
-    url: 'https://image.webservices.ft.com/v1/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2Fc4bf0be4-7c15-11e4-a7b8-00144feabdc0?source=ig&fit=scale-down&width=700',
+    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F%208b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=700',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -40,7 +40,7 @@ export default () => ({ // eslint-disable-line
   title: 'How Senators reacted to Comey dismissal',
 
   // meta data
-  description: '',
+  description: 'Whether Republicans cross party lines may determine what happens next',
 
   /*
   TODO: Select Twitter card type -
@@ -56,19 +56,19 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  // socialImage: '',
-  // socialHeadline: '',
-  // socialSummary:  '',
+  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F%208b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=700',
+  socialHeadline: 'How Senators reacted to Comey dismissal',
+  socialSummary:  'Whether Republicans cross party lines may determine what happens next',
 
   // TWITTER
-  // twitterImage: '',
+  twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F%208b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=700',
   // twitterCreator: '@individual's_account',
-  // tweetText:  '',
-  // twitterHeadline:  '',
+  tweetText:  'How Senators reacted to Comey dismissal',
+  twitterHeadline:  'Whether Republicans cross party lines may determine what happens next',
 
   // FACEBOOK
-  // facebookImage: '',
-  // facebookHeadline: '',
+  facebookImage: 'How Senators reacted to Comey dismissal',
+  facebookHeadline: 'Whether Republicans cross party lines may determine what happens next',
 
   tracking: {
 
