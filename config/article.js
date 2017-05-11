@@ -24,8 +24,8 @@ export default () => ({ // eslint-disable-line
   mainImage: {
     title: '',
     description: '',
-    credit: '',
-    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F%208b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=700',
+    credit: 'EPA/JIM LO SCALZO',
+    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F8b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=2048&height=1152',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -56,19 +56,19 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F%208b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=700',
+  socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F8b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=700',
   socialHeadline: 'How Senators reacted to Comey dismissal',
   socialSummary:  'Whether Republicans cross party lines may determine what happens next',
 
   // TWITTER
-  twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F%208b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=700',
+  twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F8b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=700',
   // twitterCreator: '@individual's_account',
   tweetText:  'How Senators reacted to Comey dismissal',
   twitterHeadline:  'Whether Republicans cross party lines may determine what happens next',
 
   // FACEBOOK
-  facebookImage: 'How Senators reacted to Comey dismissal',
-  facebookHeadline: 'Whether Republicans cross party lines may determine what happens next',
+  facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F8b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=700',
+  facebookHeadline: 'How Senators reacted to Comey dismissal',
 
   tracking: {
 
