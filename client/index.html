@@ -4,13 +4,13 @@
 	
 {% markdown %}
 
-Donald Trump’s [abrupt termination](https://www.ft.com/content/ea0d7efe-359e-11e7-bce4-9023f8c0fd2e) of FBI director James Comey in the middle of an FBI probe into Russian interference in the 2016 election sent shockwaves through [Capitol Hill](https://www.ft.com/content/faec2454-364e-11e7-bce4-9023f8c0fd2e). How Senators respond to this action matters, as Mr Trump cannot appoint a replacement for Mr Comey without the Senate’s approval. At the same time, the Senate intelligence committee is conducting its own investigation into Russian interference in the 2016 election.
+Republican support for President Donald Trump had been waning leading up to Wednesday's appointment of a [special counsel](https://www.ft.com/content/24d32d84-3b50-11e7-821a-6027b8a20f23) to oversee the FBI’s investigation into alleged ties between the Trump campaign and Russia.
 
-Some Senate Republicans expressed concern about Mr Comey’s dismissal, or released more neutral statements that neither criticised nor praised the decision, while others voiced at least some support. Senator John McCain stands alone among Republicans by calling for a special congressional committee. 
+Several Republican senators had expressed concerns after Mr Trump’s [abrupt termination](https://www.ft.com/content/c857ad9a-3501-11e7-bce4-9023f8c0fd2e) of FBI director James Comey. However the chorus quickly [grew louder](https://www.ft.com/content/24d32d84-3b50-11e7-821a-6027b8a20f23) this week after news broke that Mr Comey had written a memo saying that Mr Trump had urged him to [shut down](https://www.ft.com/content/36b254d4-3a84-11e7-821a-6027b8a20f23) the investigation into the president's former national security adviser, Michael Flynn.
 
-The reaction among Democrats was more along party lines: no Senate Democrats have voiced support for Mr Trump’s decision. Nearly all Senate Democrats have called for a [special independent prosecutor](https://www.ft.com/content/88597dec-35cc-11e7-bce4-9023f8c0fd2e) to investigate the Trump campaign’s alleged ties to Russian officials.
+While calls for an independent special prosecutor fell along party lines, Republicans were more split over expressing support for Mr Comey's dismissal. No Republicans called for a [special prosecutor](https://www.ft.com/content/88597dec-35cc-11e7-bce4-9023f8c0fd2e) – though three said it might be on the table – and most GOP senators did not call for any further actions to be taken after this week's revelations.
 
-The FT has broken down how Republicans and Democrats have lined up on the issue, starting with members of the Senate intelligence committee, who are conducting their own probe, and the Senate judiciary committee, as [the decision](https://www.ft.com/content/88597dec-35cc-11e7-bce4-9023f8c0fd2e) to appoint a special prosecutor falls to the [US judicial branch](https://www.ft.com/content/8d5ba2d0-359e-11e7-bce4-9023f8c0fd2e).
+Below is the FT’s guide to how Republicans and Democrats lined up on the issue before and after news of the Comey memo broke, starting with members of the Senate intelligence committee, who are conducting their own probe, and the Senate judiciary committee, as [the decision](https://www.ft.com/content/88597dec-35cc-11e7-bce4-9023f8c0fd2e) to appoint a special prosecutor was made by the [US judicial branch](https://www.ft.com/content/8d5ba2d0-359e-11e7-bce4-9023f8c0fd2e).
 
 {% endmarkdown %}
 
@@ -22,7 +22,8 @@ The FT has broken down how Republicans and Democrats have lined up on the issue,
 			<th>Senator</th>
 			<th>Party</th>
 			<th>State</th>
-			<th>Voiced at least some support for Mr Trump's decision</th>
+			<th>Expressed some support over Comey dismissal</th>
+			<th>Called for additional scrutiny this week</th>
 			<th>Called for a special prosecutor</th>
 		</thead>
 		<tbody>
@@ -32,11 +33,13 @@ The FT has broken down how Republicans and Democrats have lined up on the issue,
 				<td class="rowparty-{{row.party}} party-column">{{row.party}}</td>
 				<td class="state-column">{{row.state}}</td>
 				<td class="rowsupport-{{row.support2}} support-column">{{row.supportthedecision | md}}</td>
+				<td class="rowscrutiny-{{row.scrutiny2}} scrutiny-column">{{row.scrutiny | md}}</td>
 				<td class="rowcall-{{row.called2}} investigator-column">{{row.calledforspecialprosecutor | md}}</td>
 			</tr>
 			{% endfor %}
 		</tbody>
 	</table>
+	<div class="click-to-sort">**Said the option of a special prosecutor should be on the table </div>
 
 	
 
@@ -47,7 +50,8 @@ The FT has broken down how Republicans and Democrats have lined up on the issue,
 			<th>Senator</th>
 			<th>Party</th>
 			<th>State</th>
-			<th>Voiced at least some support for Mr Trump's decision</th>
+			<th>Expressed some support over Comey dismissal</th>
+			<th>Called for additional scrutiny this week</th>
 			<th>Called for a special prosecutor</th>
 		</thead>
 		<tbody>
@@ -57,11 +61,13 @@ The FT has broken down how Republicans and Democrats have lined up on the issue,
 				<td class="rowparty-{{row.party}} party-column">{{row.party}}</td>
 				<td class="state-column">{{row.state}}</td>
 				<td class="rowsupport-{{row.support2}} support-column">{{row.supportthedecision | md}}</td>
+				<td class="rowscrutiny-{{row.scrutiny2}} scrutiny-column">{{row.scrutiny | md}}</td>
 				<td class="rowcall-{{row.called2}} investigator-column">{{row.calledforspecialprosecutor | md}}</td>
 			</tr>
 			{% endfor %}
 		</tbody>
 	</table>
+	<div class="click-to-sort">*Called for independent investigation or independent commission </div>
 
 <h2>All Senators</h2>
 	<div class="click-to-sort">Click on column headers to sort</div>
@@ -70,8 +76,9 @@ The FT has broken down how Republicans and Democrats have lined up on the issue,
 			<th>Senator</th>
 			<th>Party</th>
 			<th>State</th>
-			<th>Voiced at least some support for Mr Trump's decision</th>
-			<th>Called for a special prosecutor or special counsel</th>
+			<th>Expressed some support over Comey dismissal</th>
+			<th>Called for additional scrutiny this week</th>
+			<th>Called for a special prosecutor</th>
 		</thead>
 		<tbody>
 			{% for row in data %}
@@ -80,18 +87,13 @@ The FT has broken down how Republicans and Democrats have lined up on the issue,
 				<td class="rowparty-{{row.party}} party-column">{{row.party}}</td>
 				<td class="state-column">{{row.state}}</td>
 				<td class="rowsupport-{{row.support2}} support-column">{{row.supportthedecision | md}}</td>
+				<td class="rowscrutiny-{{row.scrutiny2}} scrutiny-column">{{row.scrutiny | md}}</td>
 				<td class="rowcall-{{row.called2}} investigator-column">{{row.calledforspecialprosecutor | md}}</td>
 			</tr>
 			{% endfor %}
 		</tbody>
 	</table>
-
-{% markdown %}
-
-*Called for independent investigation or independent commission
-
-_Additional reporting by Jennifer Bissell and additional development by Joanna Kao_
-
-{% endmarkdown %}
+	<div class="click-to-sort">*Called for independent investigation or independent commission </div>
+	<div class="click-to-sort">**Said the option of a special prosecutor should be on the table </div>
 
 {% endblock %}

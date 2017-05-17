@@ -9,9 +9,9 @@ export default () => ({ // eslint-disable-line
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date('2017-05-11T23:00:00Z'),
+  publishedDate: new Date('2017-05-17T23:00:00Z'),
 
-  headline: 'How Senators reacted to Comey dismissal',
+  headline: 'How Senators reacted to latest Trump revelations',
 
   // summary === standfirst (Summary is what the content API calls it)
   summary: 'Whether Republicans cross party lines may determine what happens next ',
@@ -34,10 +34,11 @@ export default () => ({ // eslint-disable-line
   // if array of authors, url is optional
   byline: [
     { name: 'Lauren Leatherby', url: 'https://www.ft.com/lauren-leatherby' },
+    { name: 'Jennifer Bissell', url: 'https://www.ft.com/stream/authorsId/Q0ItOTUzNWFmZg==-QXV0aG9ycw==' },
   ],
 
   // Appears in the HTML <title>
-  title: 'How Senators reacted to Comey dismissal',
+  title: 'How Senators reacted to latest Trump revelations',
 
   // meta data
   description: 'Whether Republicans cross party lines may determine what happens next',
@@ -57,18 +58,18 @@ export default () => ({ // eslint-disable-line
   */
   // General social
   socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F8b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=700',
-  socialHeadline: 'How Senators reacted to Comey dismissal',
-  socialSummary:  'Whether Republicans cross party lines may determine what happens next',
+  socialHeadline: 'How Senators reacted to latest Trump revelations',
+  socialSummary: 'Whether Republicans cross party lines may determine what happens next',
 
   // TWITTER
   twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F8b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=700',
   // twitterCreator: '@individual's_account',
-  tweetText:  'How Senators reacted to Comey dismissal',
-  twitterHeadline:  'How Senators reacted to Comey dismissal',
+  tweetText: 'How Senators reacted to latest Trump revelations',
+  twitterHeadline: 'How Senators reacted to Comey dismissal',
 
   // FACEBOOK
   facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2F8b22a90a-3666-11e7-99bd-13beb0903fa3.img?source=ig&width=700',
-  facebookHeadline: 'How Senators reacted to Comey dismissal',
+  facebookHeadline: 'How Senators reacted to latest Trump revelations',
 
   tracking: {
 
